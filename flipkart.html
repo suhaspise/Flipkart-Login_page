@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 500px;
+            width: 700px;
+            border: 1px solid;
+            margin: 0 auto;
+            margin-top: 100px;
+            display: flex;
+        }
+        .box{
+            height: 500px;
+            width: 450px;
+           
+        }
+        #box1{
+            width: 250px;
+            background-color: #2874f0;
+        }
+        #login{
+            margin-left: 30px;
+            color: white;
+        }
+        #para{
+            color: #dbdbdb;
+            font-size: 18px;
+            line-height: 150%;
+
+        }
+        #img{
+            margin-top: 150px;
+            margin-left: 15px;
+        }
+        #inp{
+            height: 34px;
+            width: 300px;
+           margin: 0px auto;
+           border: none;
+           border-bottom: 1px solid black;
+           margin-top: 50px;
+           margin-left: 50px;
+           background-color: whitesmoke;
+
+        }
+        #p{
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        #butten{
+            margin-left: 50px;
+            margin-top: 30px;
+            background-color: #fb641b;
+            /* box-shadow: 0 1px 2px 0; */
+            color: #fff;
+            width: 300px;
+            height: 40px;
+            color: white;
+            border: none;
+        }
+        #a1{
+            font-size: 16px;
+            margin-left: 90px;
+            margin-top: 230px;
+            
+        
+
+        }
+        #box2{
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="box" id="box1">
+            <div id="login">
+                <h1> <b> Login</b></h1>
+                
+                <p id="para">Get access to your  <br>  Order, Wishlist and <br> Recommendations</p>
+            </div>
+            
+            <div id="img">
+                <img src="./login_img_c4a81e.png" alt="">
+
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <input type="text" id="inp" placeholder="Enter Your Mail / Mobile number ">
+            <p id="p"> By continuing, you agree Flipkart's <a href="">Terms of Use</a> <br> and <a href="">Privacy Policy</a>.</p>
+            
+            <button type="submit" id="butten">Request OTP</button>
+        
+             <div id="a1">
+                <a href="https://www.flipkart.com/account/login?signup=true">New to Flipkart? Create an account</a>
+             </div>
+             
+        </div>
+    </div>
+    
+</body>
+</html>
